@@ -1,16 +1,8 @@
 # Līdzīgo risinājumu pārskats
 
-## 1. Ievads
+## 1. Līdzīgie risinājumi
 
-Mūsu projekta tēma ir **drukāšanas pasūtījumu izpildes plānošana**. Sistēmas galvenais uzdevums ir palīdzēt plānot drukāšanas pasūtījumu izpildi, ņemot vērā pieejamo iekārtu darbības laiku un citus pasūtījumu parametrus.
-
-Līdzīgo risinājumu pārskatā tika analizētas trīs drukas industrijai paredzētas vadības sistēmas: **PrintVis**, **PrintMIS ePRO** un **Avanti Slingshot**. Tika pievērsta uzmanība pasūtījumu pārvaldībai, ražošanas plānošanai, iekārtu noslodzei, grafiskai plāna attēlošanai un automatizācijai.
-
----
-
-## 2. Līdzīgie risinājumi
-
-### 2.1. PrintVis
+### 1.1. PrintVis
 
 **PrintVis** ir drukas un iepakojuma industrijai paredzēta MIS/ERP sistēma, kas aptver pasūtījumu pārvaldību, ražošanas plānošanu, grafiku veidošanu, ražošanu, materiālus un finanšu procesus.
 
@@ -22,7 +14,7 @@ Mūsu projektam īpaši interesanta ir iespēja veidot ražošanas grafiku un ņ
 - https://printvis.com/features/planning-and-scheduling/
 - https://printvis.com/solution-landing/
 
-### 2.2. PrintMIS ePRO
+### 1.2. PrintMIS ePRO
 
 **PrintMIS ePRO** ir Print MIS sistēma, kas paredzēta drukas uzņēmumu darba procesu pārvaldībai. Tā nodrošina funkcijas no pasūtījuma un darba uzdevuma izveides līdz ražošanas plānošanai, piegādei, rēķiniem un atskaitēm.
 
@@ -34,7 +26,7 @@ Mūsu projektam noderīga ir ideja par pasūtījuma dzīves cikla sasaisti ar ra
 - https://www.printmis.com/en/print-job-management-software
 - https://www.printmis.com/en/print-mis-software
 
-### 2.3. Avanti Slingshot
+### 1.3. Avanti Slingshot
 
 **Avanti Slingshot** ir drukas uzņēmumiem paredzēta Print MIS sistēma. Tā ietver pasūtījumu pārvaldību, ražošanas plānošanu, grafiku veidošanu, noliktavas un piegādes procesus, rēķinus un atskaites.
 
@@ -48,7 +40,7 @@ Mūsu projektam īpaši interesanta ir pasūtījumu plānošanas un ražošanas 
 
 ---
 
-## 3. Līdzīgo risinājumu salīdzinājums
+## 2. Līdzīgo risinājumu salīdzinājums
 
 | Kritērijs | PrintVis | PrintMIS ePRO | Avanti Slingshot |
 |---|---|---|---|
@@ -62,7 +54,7 @@ Mūsu projektam īpaši interesanta ir pasūtījumu plānošanas un ražošanas 
 | Finanšu/izmaksu funkcijas | Jā | Jā | Jā |
 | Specializācija drukas industrijai | Jā | Jā | Jā |
 
-### Novērojumi
+## 3. Novērojumi
 
 Analizētajos risinājumos atkārtojas vairākas funkcijas:
 
@@ -96,31 +88,3 @@ Mūsu projektā piemērotības funkcijā teorētiski varētu ņemt vērā:
 - plānoto peļņu.
 
 Šobrīd ģenētiskais algoritms tiek aplūkots kā iespējamais intelektuālais algoritms turpmākai izpētei; tā izvēle galīgajai sistēmas implementācijai vēl ir jāizvērtē.
-
-**Avoti:**
-- https://link.springer.com/article/10.1007/s10462-024-11059-9
-- https://www.nist.gov/publications/job-shop-scheduling
-- https://doi.org/10.1016/0360-8352(96)00047-2
-
----
-
-## 5. Secinājumi
-
-Līdzīgo risinājumu analīze parādīja, ka drukas industrijā jau tiek izmantotas sistēmas, kas apvieno pasūtījumu pārvaldību ar ražošanas plānošanu un resursu kapacitātes kontroli.
-
-PrintVis īpaši izceļas ar automātiskas un manuālas plānošanas iespējām un grafisku ražošanas plāna attēlošanu. PrintMIS ePRO apvieno pasūtījumu pārvaldību ar Job Planner un Production Planner funkcijām. Avanti Slingshot piedāvā ražošanas plānošanu un integrāciju ar citām ražošanas sistēmām, tostarp izmantojot JDF.
-
-Mūsu projekta risinājumā var izmantot līdzīgas pamatidejas, bet koncentrēties uz konkrēto drukāšanas pasūtījumu izpildes plānošanas problēmu. Turpmākajā darbā nepieciešams izvērtēt, kādu plānošanas algoritmu izmantot un kā novērtēt iegūtā plāna kvalitāti.
-
----
-
-## 6. Izmantotie avoti
-
-1. PrintVis. *Planning and Scheduling*. https://printvis.com/features/planning-and-scheduling/
-2. PrintVis. *The Complete Solution for the print industry*. https://printvis.com/solution-landing/
-3. PrintMIS. *Print Job Management Software*. https://www.printmis.com/en/print-job-management-software
-4. PrintMIS. *Print MIS Software for Commercial Printers*. https://www.printmis.com/en/print-mis-software
-5. Avanti Systems. *Avanti Slingshot Core Modules*. https://avantisystems.com/wp-content/uploads/2025/05/Avanti-Core-Modules-May-14-2025.pdf
-6. NIST. *Job Shop Scheduling*. https://www.nist.gov/publications/job-shop-scheduling
-7. Cheng, R., Gen, M., Tsujimura, Y. *A tutorial survey of job-shop scheduling problems using genetic algorithms*. https://doi.org/10.1016/0360-8352(96)00047-2
-8. *Learn to optimise for job shop scheduling: a survey with comparison between genetic programming and reinforcement learning*. Artificial Intelligence Review, 2025. https://link.springer.com/article/10.1007/s10462-024-11059-9
