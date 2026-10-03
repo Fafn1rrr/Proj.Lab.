@@ -1,0 +1,2 @@
+# Konceptu modelis
+* Link uz [draw.io](https://drive.google.com/file/d/1soRA9Tpgzz2gs0HIr_46BcN3WHS4_8Hu/view?usp=sharing)
