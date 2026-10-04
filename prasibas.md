@@ -4,9 +4,9 @@
 
 | Nr. | Prasība | Prioritāte |
 |---|---|---|
-| F1 | Sistēmai jānodrošina grāmatu pasūtījumu pievienošana. | Must have |
+| F1 | Sistēmai jānodrošina grāmatu pasūtījumu pievienošana, katram pasūtījumam norādot vienu grāmatu. | Must have |
 | F2 | Sistēmai jānodrošina iespēja norādīt katras grāmatas peļņu par vienību. | Must have |
-| F3 | Sistēmai jānodrošina iespēja norādīt minimālo drukājamo grāmatu skaitu. | Must have |
+| F3 | Sistēmai jānodrošina iespēja norādīt minimālo drukājamo grāmatu skaitu katram pasūtījumam. (šis daudzums obligāti jāizdrukā). | Must have |
 | F4 | Sistēmai jānodrošina pieejamo drukāšanas iekārtu norādīšana. | Must have |
 | F5 | Sistēmai jānodrošina iespēja norādīt katras iekārtas pieejamo darbības laiku. | Must have |
 | F6 | Sistēmai jānodrošina iespēja norādīt katrai grāmatai nepieciešamo iekārtas darbības laiku. | Must have |
@@ -28,13 +28,13 @@ Lietotāju stāsti tiek formulēti pēc principa:
 | Nr. | Lietotāju stāsts | Prioritāte |
 |---|---|---|
 | US1 | Ražošanas plānotājs vēlas pievienot grāmatu pasūtījumus, jo tie ir nepieciešami drukāšanas plāna izveidošanai. | Must have |
-| US2 | Ražošanas plānotājs vēlas norādīt katras grāmatas peļņu par vienību, jo nepieciešams aprēķināt izdevīgāko drukāšanas plānu. | Must have |
+| US2 | Ražošanas plānotājs vēlas norādīt katras grāmatas peļņu par vienību, jo sistēmai ir jāspēj maksimizēt kopējo peļņu. | Must have |
 | US3 | Ražošanas plānotājs vēlas norādīt minimālo drukājamo grāmatu skaitu, jo drukāšanas plānam ir jāievēro pasūtījumu ierobežojumi. | Must have |
 | US4 | Ražošanas plānotājs vēlas norādīt pieejamās drukāšanas iekārtas, jo drukāšanas plānam ir jāņem vērā pieejamās iekārtas. | Must have |
 | US5 | Ražošanas plānotājs vēlas norādīt katras iekārtas pieejamo darbības laiku, jo iekārtu darbības laiks ir ierobežots. | Must have |
 | US6 | Ražošanas plānotājs vēlas norādīt katrai grāmatai nepieciešamo iekārtas darbības laiku, jo sistēmai ir jāņem vērā iekārtu noslodze. | Must have |
 | US7 | Ražošanas plānotājs vēlas iegūt optimālu drukāšanas plānu, jo nepieciešams maksimizēt peļņu, nepārsniedzot iekārtu darbības laika ierobežojumus. | Must have |
-| US8 | Ražošanas plānotājs vēlas redzēt, kuras grāmatas un kādā daudzumā ir jādrukā, jo nepieciešams organizēt drukāšanas procesu. | Must have |
+| US8 | Ražošanas plānotājs vēlas redzēt, kuras grāmatas un kādā daudzumā ir jādrukā, jo nepieciešams zināt, kurus pasūtījumus ir izdevīgi ražot. | Must have |
 | US9 | Ražošanas plānotājs vēlas redzēt aprēķināto kopējo peļņu, jo nepieciešams novērtēt izveidotā drukāšanas plāna rezultātu. | Must have |
 | US10 | Ražošanas plānotājs vēlas redzēt izmantoto un atlikušo iekārtu darbības laiku, jo nepieciešams novērtēt iekārtu noslodzi. | Should have |
 | US11 | Ražošanas plānotājs vēlas rediģēt iepriekš ievadītos grāmatu un iekārtu datus, jo sākotnējā informācija var mainīties. | Should have |
