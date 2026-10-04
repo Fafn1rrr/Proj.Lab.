@@ -1,2 +1,3 @@
-# Konceptu modelis (nepabeigts)
-* Link uz [draw.io](https://drive.google.com/file/d/1soRA9Tpgzz2gs0HIr_46BcN3WHS4_8Hu/view?usp=sharing)
+# Konceptu modelis
+Konceptu modelis attēlo sistēmas galvenos konceptus un savstarpējās saistības.
+![Konceptu modelis](koncepta_modelis_v6.svg)
